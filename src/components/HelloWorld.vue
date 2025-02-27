@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <h1 class="text-red-500">Blamo world</h1>
+  <h1>Blamo worl lold lololol</h1>
 </template>
 
 <style scoped>
