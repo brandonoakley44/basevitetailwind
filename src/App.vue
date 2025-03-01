@@ -1,10 +1,14 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import CameraScreen from './screens/CameraScreen.vue';
 import { Camera, CameraResultType } from '@capacitor/camera';
+
+
 </script>
 
 <template>
-  <div class="text-red-400">hello that lol much better fef merge</div>
+  <div>
+    <CameraScreen />
+  </div>
 </template>
 
 <style scoped>
