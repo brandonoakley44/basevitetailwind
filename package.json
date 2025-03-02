@@ -6,9 +6,14 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "ios": "cp capacitor.ios.json capacitor.config.json && npx cap sync ios && npx cap open ios",
+    "android": "cp capacitor.android.json capacitor.config.json && npx cap sync android && npx cap open android"
+
+
   },
   "dependencies": {
+    "@capacitor/android": "^7.0.1",
     "@capacitor/camera": "^7.0.0",
     "@capacitor/cli": "^7.0.1",
     "@capacitor/core": "^7.0.1",

@@ -1,0 +1,10 @@
+{
+    "appId": "com.goodlifeclone.app",
+    "appName": "goodlife-clone-mobile",
+    "webDir": "dist",
+    "server": {
+      "url": "http://localhost:5173",
+      "cleartext": true
+    }
+  }
+  
