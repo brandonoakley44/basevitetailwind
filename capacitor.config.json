@@ -1,6 +1,19 @@
 {
-    "appId": "com.goodlifeclone.app",
-    "appName": "goodlife-clone-mobile",
-    "webDir": "dist"
+  "appId": "com.goodlifeclone.app",
+  "appName": "goodlife-clone-mobile",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https",
+    "cleartext": true,
+    "allowNavigation": [
+      "localhost:*"
+    ]
+  },
+  "plugins": {
+    "StatusBar": {
+      "backgroundColor": "#1f2937",
+      "style": "DARK",
+      "overlaysWebView": true
+    }
   }
-  
+}

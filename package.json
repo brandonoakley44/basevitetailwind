@@ -9,16 +9,18 @@
     "preview": "vite preview",
     "ios": "cp capacitor.ios.json capacitor.config.json && npx cap sync ios && npx cap open ios",
     "android": "cp capacitor.android.json capacitor.config.json && npx cap sync android && npx cap open android"
-
-
   },
   "dependencies": {
     "@capacitor/android": "^7.0.1",
     "@capacitor/camera": "^7.0.0",
     "@capacitor/cli": "^7.0.1",
     "@capacitor/core": "^7.0.1",
+    "@capacitor/filesystem": "^7.0.0",
     "@capacitor/ios": "^7.0.1",
+    "@capacitor/status-bar": "^7.0.0",
+    "@capawesome/capacitor-file-picker": "^7.0.1",
     "@tailwindcss/vite": "^4.0.9",
+    "capacitor-plugin-safe-area": "^4.0.0",
     "vue": "^3.5.13"
   },
   "devDependencies": {
