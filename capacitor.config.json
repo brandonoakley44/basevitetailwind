@@ -3,11 +3,8 @@
   "appName": "goodlife-clone-mobile",
   "webDir": "dist",
   "server": {
-    "androidScheme": "https",
-    "cleartext": true,
-    "allowNavigation": [
-      "localhost:*"
-    ]
+    "url": "http://192.168.2.41:5173",
+    "cleartext": true
   },
   "plugins": {
     "StatusBar": {

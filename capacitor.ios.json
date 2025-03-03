@@ -3,7 +3,7 @@
     "appName": "goodlife-clone-mobile",
     "webDir": "dist",
     "server": {
-      "url": "http://192.168.2.41:5173",
+      "url": "http://localhost:5173",
       "cleartext": true
     }
   }
